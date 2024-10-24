@@ -1,0 +1,42 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform crash logs
+crash.log
+
+# Ignore Terraform variables and sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore backup files created by Terraform
+*.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore .terraform directory (used to store provider plugins)
+.terraform/
+.terraform.lock.*
+
+# Ignore override files which can contain local-only config
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore SSH private keys
+*.pem
+*.key
+
+# Ignore log and temporary files
+*.log
+*.tmp
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Docker artifacts
+docker-compose.override.yml
+Dockerfile~
